@@ -1,0 +1,39 @@
+dn: ou=People,dc=rtn,dc=sn
+objectclass: organizationalUnit
+ou: People
+
+dn: uid=berenger,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: berenger
+userPassword: passer
+uidNumber: 5223
+gidNumber: 5223
+cn: Berenger Benam
+homeDirectory: /home/berenger
+loginShell: /bin/bash
+sn: Benal
+mail: berenger@rtn.sn
+
+dn: uid=morez,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: morez
+userPassword: passer
+uidNumber: 5224
+gidNumber: 5224
+cn: Morez Wandet
+homeDirectory: /home/morez
+loginShell: /bin/bash
+sn: Morez
+mail: morez@rtn.sn
+
+
+
+
+
+
+
+

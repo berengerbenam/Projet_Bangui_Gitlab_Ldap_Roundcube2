@@ -1,0 +1,36 @@
+dn: dc=rtn,dc=sn
+objectclass: organization
+objectclass: dcObject
+dc: rtn
+o: rtn
+
+dn: ou=groups,dc=rtn,dc=sn
+objectclass: organizationalUnit
+ou: groups
+
+dn: uid=ldapadmin,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: ldapadmin
+userPassword: passer
+uidNumber: 2001
+gidNumber: 2001
+cn: admin gitlab
+homeDirectory: /home/ldapadmin
+loginShell: /bin/shell
+sn: ldapadmin 
+
+dn: uid=devops1,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: devops1
+userPassword: passer
+uidNumber: 2002
+gidNumber: 2002
+cn: devops 1
+homeDirectory: /home/devops1
+loginShell: /bin/shell
+sn: devops1
+

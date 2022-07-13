@@ -1,0 +1,13 @@
+---
+
+- hosts: clientwindows1
+
+  tasks:
+    - name: Activer firewall
+      win_firewall:
+        state: enabled
+        profiles:
+        - Domain
+        - Private
+        - Public
+      tags: enabled_firewall

@@ -1,0 +1,13 @@
+dn: cn=mohamed,ou=Utilisateurs,dc=rtn,dc=sn
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: Mohamed mbengues
+cn: mohamed
+userPassword: passer
+sn: mohamed
+gidNumber: 1100
+homeDirectory: /home/mohamed
+uid: mohamed
+mail: mohamed@rtn.sn
+uidNumber: 1200

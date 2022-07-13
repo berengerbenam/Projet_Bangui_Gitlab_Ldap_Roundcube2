@@ -1,0 +1,14 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+rtn.sn.	IN	SOA	gitlab1.rtn.sn. alain.rtn.sn. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+rtn.sn.	IN	NS	gitlab1.rtn.sn.
+gitlab1	IN	A	10.0.2.15
+*.rtn.sn.	IN A 192.168.1.4

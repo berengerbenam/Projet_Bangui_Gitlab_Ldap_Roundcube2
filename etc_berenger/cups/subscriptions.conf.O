@@ -1,0 +1,114 @@
+# Subscription configuration file for CUPS v2.2.7
+# Written by cupsd
+NextSubscriptionId 63
+<Subscription 46>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657187214
+NextEventId 1
+</Subscription>
+<Subscription 47>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657187214
+NextEventId 6
+</Subscription>
+<Subscription 48>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657187546
+NextEventId 1
+</Subscription>
+<Subscription 49>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657187547
+NextEventId 5
+</Subscription>
+<Subscription 51>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657188980
+NextEventId 1
+</Subscription>
+<Subscription 52>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657188980
+NextEventId 4
+</Subscription>
+<Subscription 54>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657189686
+NextEventId 1
+</Subscription>
+<Subscription 55>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657189686
+NextEventId 3
+</Subscription>
+<Subscription 57>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657205994
+NextEventId 1
+</Subscription>
+<Subscription 58>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657205994
+NextEventId 2
+</Subscription>
+<Subscription 60>
+Events printer-changed
+Owner root
+LeaseDuration 86400
+Interval 60
+ExpirationTime 1657207531
+NextEventId 1
+</Subscription>
+<Subscription 61>
+Events all
+Owner anonymous
+Recipient dbus://
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1657207531
+NextEventId 1
+</Subscription>
+<Subscription 62>
+Events printer-state-changed printer-restarted printer-shutdown printer-stopped printer-added printer-deleted job-state-changed job-created job-completed job-stopped
+Owner berenger
+Recipient dbus://
+LeaseDuration 3600
+Interval 0
+ExpirationTime 1657131868
+NextEventId 1
+</Subscription>

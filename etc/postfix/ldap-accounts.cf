@@ -1,0 +1,11 @@
+server_host = localhost
+server_port = 389
+version = 3
+bind = yes
+start_tls = no
+bind_dn = cn=admin,dc=rtn,dc=sn
+bind_pw = passer
+search_base =dc=rtn,dc=sn
+scope = sub
+query_filter = (&(&(objectClass=inetOrgPerson)(mail=%s)))
+result_attribute = mailbox

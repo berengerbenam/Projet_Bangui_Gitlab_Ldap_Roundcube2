@@ -1,0 +1,9 @@
+server_host = ldap://127.0.0.1
+version = 3
+bind = yes
+bind_dn = cn=admin,dc=rtn,dc=sn
+bind_pw = passer 
+search_base = dc=rtn,dc=sn
+scope = sub
+query_filter = (&(mail=%s)(objectClass=alias))
+result_attribute = mail

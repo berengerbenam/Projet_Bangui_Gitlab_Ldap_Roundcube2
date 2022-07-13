@@ -1,0 +1,9 @@
+/var/log/phamm.log {
+	weekly
+	missingok
+	rotate 7
+	sharedscripts
+	compress
+	notifempty
+	create 640 www-data adm
+}

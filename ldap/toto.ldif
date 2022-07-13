@@ -1,0 +1,16 @@
+dn: uid=toto,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: toto
+userPassword: passer
+uidNumber: 6000
+gidNumber: 6000
+cn: toto nama
+homeDirectory: /home/toto
+loginShell: /bin/bash
+sn: toto
+mail: toto@rtn.sn
+
+
+

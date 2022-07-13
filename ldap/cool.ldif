@@ -1,0 +1,13 @@
+dn: uid=tom,dc=rtn,dc=sn
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tom
+uidNumber: 5228
+gidNumber: 5228
+cn: tom sayer
+homeDirectory: /home/tom
+loginShell: /bin/bash
+sn: tom
+mail: tom@rtn.sn
+

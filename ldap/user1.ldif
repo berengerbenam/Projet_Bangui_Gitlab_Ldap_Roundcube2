@@ -1,0 +1,89 @@
+dn: uid=berenger,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: berenger
+userPassword: passer
+uidNumber: 5223
+gidNumber: 5223
+cn: Berenger Benam
+homeDirectory: /home/berenger
+loginShell: /bin/bash
+sn: Benam
+mail: berenger@rtn.sn
+
+
+dn: uid=morez,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: morez
+userPassword: passer
+uidNumber: 5224
+gidNumber: 5224
+cn: Morez Wandet
+homeDirectory: /home/morez
+loginShell: /bin/bash
+sn: Wandet
+mail: morez@rtn.sn
+
+
+dn: uid=samuel,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: samuel
+userPassword: passer
+uidNumber: 5225
+gidNumber: 5225
+cn: Samuel Ouya
+homeDirectory: /home/samuel
+loginShell: /bin/bash
+sn: Ouya
+mail: samuel@rtn.sn
+
+
+dn: uid=alpha,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: alpha
+userPassword: passer
+uidNumber: 5226
+gidNumber: 5226
+cn: Alpha Diallo
+homeDirectory: /home/alpha
+loginShell: /bin/bash
+sn: Diallo
+mail: alpha@rtn.sn
+
+dn: uid=mohammed,ou=People,dc=rtn,dc=sn
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+uid: mohammed
+uidNumber: 2003
+gidNumber: 2002
+homeDirectory: /home/mohammed
+loginShell: /bin/bash
+mail: mohammed@rtn.sn
+givenName: mohammed
+cn: Mbenguem mohammed
+userPassword: passer
+sn: Mbenguem mohammed
+jpegPhoto:<file:///etc/ldap/images/mohammed.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+

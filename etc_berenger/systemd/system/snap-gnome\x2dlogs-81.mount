@@ -1,0 +1,13 @@
+[Unit]
+Description=Mount unit for gnome-logs, revision 81
+Before=snapd.service
+
+[Mount]
+What=/var/lib/snapd/snaps/gnome-logs_81.snap
+Where=/snap/gnome-logs/81
+Type=squashfs
+Options=nodev,ro,x-gdu.hide
+LazyUnmount=yes
+
+[Install]
+WantedBy=multi-user.target

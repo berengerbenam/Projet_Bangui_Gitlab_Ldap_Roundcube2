@@ -1,0 +1,5 @@
+dn: uid=ldapadmin@rtn.sn,dc=rtn,dc=sn
+changetype: modify
+add: mail
+mail: ldapadmin@rtn.sn
+

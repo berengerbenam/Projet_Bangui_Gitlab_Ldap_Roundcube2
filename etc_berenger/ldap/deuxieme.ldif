@@ -1,0 +1,24 @@
+dn: ou=people,dc=rtn,dc=sn
+ou: people
+objectClass: organizationalUnit
+dn: uid=pierre,ou=People,dc=rtn,dc=sn
+uid: pierre
+cn: Pierre BLONDEAU
+sn: BLONDEAU
+mail: pierre@rtn.sn
+userPassword: passer
+telephoneNumber: 0000
+roomNumber: 0000
+initials: PB
+objectClass: inetOrgPerson
+
+dn: uid=daniel,ou=People,dc=rtn,dc=sn
+uid: daniel
+cn: Daniel Benam
+sn: daniel
+mail: daniel@rtn.sn
+userPassword: passer
+telephoneNumber: 0001
+roomNumber: 0001
+initials: IT
+objectClass: inetOrgPerson

@@ -1,0 +1,11 @@
+dn: ou=People,dc=rtn,dc=sn
+objectclass: organizationalUnit
+ou: People
+
+dn: ou=Utilisateurs,dc=rtn,dc=sn
+objectclass: organizationalUnit
+ou: People
+
+
+
+

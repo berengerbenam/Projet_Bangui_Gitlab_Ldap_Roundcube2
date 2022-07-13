@@ -1,0 +1,13 @@
+dn: uid=mohamed,dc=rtn,dc=sn
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: mohamed
+userPassword: passer
+uidNumber: 5222
+gidNumber: 5222
+cn: Mohamed Mbengue
+homeDirectory: /home/mohamed
+loginShell: /bin/bash
+sn: Mbengue
+mail: mohamed@rtn.sn
